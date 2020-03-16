@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=78FAtAcLvqY
+
+var data_link=query_result_link+"3/"+id;	
+
+
+if($rootScope.element_name=='document_fees_pay_ledger_id_name')
+			{		
+				$scope.FormInputArray[$rootScope.index_value].document_fees_pay_ledger_id_name =$rootScope.suggestions[index];	
+				var str=$scope.FormInputArray[$rootScope.index_value].document_fees_pay_ledger_id_name;			
+				var id=str.substring(str.lastIndexOf("#")+1,str.lastIndexOf(")"));	
+				var data_link=query_result_link+"3/"+id;				
+				//console.log(data_link);					
+				$http.get(data_link).then(function(response){
+					angular.forEach(response.data,function(value,key){
+						$scope.FormInputArray[$rootScope.index_value].document_fees_pay_ledger_id_name=value.name;
+						$scope.FormInputArray[$rootScope.index_value].document_fees_pay_ledger_id=value.id;
+
+					});
+				});
+			}
+
+
+var query_result_link=domain_name+"Accounts_controller/query_result/";
+
+var data_link=query_result_link+"27/";
+			console.log(data_link);
+			$http.get(data_link).then(function(response) {$scope.yesno_list=response.data;});

@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kitchen Sree :: Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css' />
+<style type="text/css">
+<!--
+.style1 {color: #990033}
+-->
+</style>
+<!--date time-->	
+<script type="text/javascript">
+//var currenttime = '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' //SSI method of getting server date
+var currenttime = '<?php 
+
+date_default_timezone_set('Asia/Kolkata');
+print date("F d, Y H:i:s", time())?>' //PHP method of getting server date
+
+///////////Stop editting here/////////////////////////////////
+
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+var serverdate=new Date(currenttime)
+
+function padlength(what){
+var output=(what.toString().length==1)? "0"+what : what
+return output
+}
+
+function displaytime(){
+serverdate.setSeconds(serverdate.getSeconds()+1)
+var datestring=montharray[serverdate.getMonth()]+" "+padlength(serverdate.getDate())+", "+serverdate.getFullYear()
+var timestring=padlength(serverdate.getHours())+":"+padlength(serverdate.getMinutes())+":"+padlength(serverdate.getSeconds())
+document.getElementById("servertime").innerHTML=datestring+" "+timestring
+}
+
+window.onload=function(){
+setInterval("displaytime()", 1000)
+}
+
+</script>
+	
+</head>
+
+<body>
+	
+    	<!--header-starts-->
+    	<div class="header">
+		
+			<div class="header_logo1">
+			<img src="dhuliyan_images/logo.png" alt="" /><embed src="dhuliyan_images/flash.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="460" height="101" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed>
+			</div>
+			
+			<div class="header_logo2">
+			   <br /><br />
+				Mail ID : <span class="style1">
+				dhuliyan_munici@sify.com<br />info@dhuliyanmunicipality.in</span><br />
+				Phone No. - <span class="style1">03485- 266133</span><br />
+				Fax No.   - <span class="style1">03485 - 265233</span><br />
+				<span id="servertime"></span> 
+				
+			</div>
+			
+        	<!--<div class="main">
+			<a href="index.html">
+			<embed src="dhuliyan_images/flash.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="460" height="101" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed>
+			<img src="images/logo.png" alt="" /></a></div>-->
+			
+			
+        </div>
+        <!--header-ends-->
+        
+        <!--nav starts-->
+  		<div class="nav">
+        <div class="main">
+        	<ul>
+            	<li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">Administrtor</a></li>
+                <li><a href="modular.html">Tendor</a></li>
+                <li><a href="products.html">Department</a>
+                	<!--<ul>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="chimney.html">Chimney</a></li>
+                        <li><a href="hob.html">Hob</a></li>
+                    </ul>-->
+                </li>
+                <li><a href="dealer.html">Services</a></li>
+				 <li><a href="dealer.html">Projects</a></li>
+			<!--	  <li><a href="dealer.html">Public Work</a></li>-->
+                <li class="no-border"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="clearBoth"></div>
+        </div>
+  		</div>
+        <!--nav ends-->
+        
+        <!--banner starts-->
+        <div class="banner">
+        	<div id="wowslider-container1">
+                <div class="ws_images">
+                	<ul>
+                        <!--<li><img src="images/banner02.jpg" alt="banner" title="" /></li>
+                        <li><img src="images/banner01.jpg" alt="banner" title="" /></li>
+                        <li><img src="images/banner03.jpg" alt="banner" title="" /></li>
+                        <li><img src="images/banner04.jpg" alt="banner" title="" /></li>
+                        <li><img src="images/banner05.jpg" alt="banner" title="" /></li>
+                        <li><img src="images/banner06.jpg" alt="banner" title="" /></li>-->
+						<li><img src="dhuliyan_images/banner/banner.jpg" alt="banner" title="" /></li>
+                        <li><img src="dhuliyan_images/banner/banner2.jpg" alt="banner" title="" /></li>
+                        <li><img src="dhuliyan_images/banner/banner3.jpg" alt="banner" title="" /></li>
+                        <li><img src="dhuliyan_images/banner/banner4.jpg" alt="banner" title="" /></li>
+                        <li><img src="dhuliyan_images/banner/banner5.jpg" alt="banner" title="" /></li>
+                        <li><img src="dhuliyan_images/banner/banner6.jpg" alt="banner" title="" /></li>
+						<li><img src="dhuliyan_images/banner/banner8.jpg" alt="banner" title="" /></li>
+						
+						
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--banner ends-->
+        
+        <!--body-section starts-->
+        <div class="body-section">
+        <div class="main">
+       	  <h1><span class="red-text">Dhuliyan </span><strong><em>is a very densely populated Municipality Comprising 19 No. of Wards in  Jangipur  Sub-Division of Murshidabad District</em></strong>.</h1>
+        </div>
+          <div class="latest-heading"><span class="red-text">Latest</span> PUBLIC WORKS </div>
+          
+            <div class="showcase">
+            <div class="main">
+            	<ul>
+                	<li>
+                    	<b><img src="dhuliyan_images/public_work/pwork1.jpg" alt="" /></b>
+                        <h3>Maintainance of Road</h3>
+                        <div class="btn"><a href="modular.html">Details</a></div>
+                    </li>
+                    <li>
+                    	<b><img src="dhuliyan_images/public_work/pwork2.jpg" alt="" /></b>
+                        <h3>DESCRIPTION HERE<BR />HERE</h3>
+                        <div class="btn"><a href="modular.html">Details</a></div>
+                    </li>
+                    <li>
+                    	<b><img src="dhuliyan_images/public_work/pwork3.jpg" alt="" /></b>
+                         <h3>DESCRIPTION HERE<BR />HERE</h3>
+                        <div class="btn"><a href="modular.html">Details</a></div>
+                    </li>
+                    <li>
+                    	<b><img src="dhuliyan_images/public_work/pwork4.jpg" alt="" /></b>
+                       <h3>DESCRIPTION HERE<BR />HERE</h3>
+                        <div class="btn"><a href="modular.html">Details</a></div>
+                    </li>
+                </ul>
+                <div class="clearBoth"></div>
+            </div>
+            </div>
+            
+            <div class="body-bottom">
+            <div class="main">
+			<div class="body-left">
+                	<h2>Chairman's  <span class="red-txt">Speech</span></h2>
+                	<blockquote><img src="dhuliyan_images/chairman.jpg" alt="" width="230" /></blockquote><p>Dhuliyan is a very densely populated Municipality Comprising 19 No. of Wards in  Jangipur  Sub-Division of Murshidabad District. This Municipality was established in the year 1909 with 9 No. of Wards and population of 8,295. Its Distance from Sub-divisional Head quarter at Raghunathganj is 37  K.M. and that from district Head quarter at Berhampur is 94 K.M. Population of the Municipality has reached 95713 (As per Census 2011) whereas geographical Area of the Municipality remains 6.25 Sq K.M. only. Now the Municipality area is spread  over Kanchantala, Anupnagar, Lalpur  and few more Villages. Near about two third of the population belong to Muslim community and remaining one third belong to Hindu and Jain Community. Percentage of Literacy is 52.53<br />
+                	<br />
+                	<br />
+</p>
+                    
+              </div>
+			
+			  <div class="body-right">
+                	<div class="testimonials">
+                    	<h2><span class="red-txt">Announcement</span></h2>
+						
+                        <em>" Scroll Go's Here...."</em><br /><br />
+						<em>" Scroll Go's Here...."</em><br /><br />
+						<em>" Scroll Go's Here...."</em><br /><br />
+						<em>" Scroll Go's Here...."</em><br /><br />
+						
+                        
+                        <div class="more-btn"><a href="#">More Announcement</a></div>
+                        <div class="clearBoth"></div>
+                    </div>
+                    
+                   
+                </div>
+			
+			 
+				
+            <div class="body-left">
+                	<h2>Few Words about <span class="red-txt">Dhuliyan Municipality</span></h2>
+                	<blockquote><img src="dhuliyan_images/dhuliyan_mc.jpg" alt="" width="230" /></blockquote><p>Dhuliyan is a very densely populated Municipality Comprising 19 No. of Wards in  Jangipur  Sub-Division of Murshidabad District. This Municipality was established in the year 1909 with 9 No. of Wards and population of 8,295. Its Distance from Sub-divisional Head quarter at Raghunathganj is 37  K.M. and that from district Head quarter at Berhampur is 94 K.M. Population of the Municipality has reached 95713 (As per Census 2011) whereas geographical Area of the Municipality remains 6.25 Sq K.M. only. Now the Municipality area is spread  over Kanchantala, Anupnagar, Lalpur  and few more Villages. Near about two third of the population belong to Muslim community and remaining one third belong to Hindu and Jain Community. Percentage of Literacy is 52.53<br /><br />
+					
+Dhuliyan is located between river Ganges & Hooghly Canal. Soil erosion has shifted the town towards south-west  from its earlier position . This town is  mentioned as an Inland Water Transport (IWT) Trading point between Murshidabad and the city of Rajsahi in Bangladesh. Thus , this Municipality is surrounded by Farakka in the north, Aurangabad in the south, Jharkhand in the west and Ganges River & Bangladesh country in the east. It is within 56, Samsherganj Assembly Constituency & 8, Malda (South) Parliamentary constituency. Names of present M.L.A. & M.P.  are Touab Ali & Abu Hasem Khan Chowdhury respectively. Mr. Khan Chowdhury is the Hon’ble Union minister of state for Health and Family welfare.
+<br /><br />
+
+Dhuliyan Ganga is the Nearest railway station from this place. It is well connected with Kolkata City by Malda town Fast Passenger, Malda town Intercity Express, Radhikapur Express, Teesta Torsha Express, Kamrup Express and a few more. Kolkata is at a distance of 282 K.M. from this place & Malda Town  is at   a distance  of 49 K.M.  Pakur is another railway station at a distance of 25 K.M. from this place in Jharkhand state from where a number trains are available connecting Kolkata viz. Gour Express, Balurghat Express, Intercity Express (via Rampurhat), Darjeeling Mail, Hate Bazare Express. Buses are also plying from Kolkata to Siliguri touching this place
+<br /><br />
+
+A  good  number of people of this Municipality earn their livelihood by making & selling of Biris. A number of Biri Industries are located in this town. Some people are engaged in running business of wholesale & retail sale of articles like cloth, readymade garments, bedding, furniture, hardware goods and  utensils made of  bell metal, steel and aluminum. Wholesale business of rice, flour, and spice are also running from this place. As such gathering of carrying vehicles can be found on the road of entrance to the town, day & night.
+<br /><br />
+
+Dhuliyan is a quiet town with people having riverside lifestyle. Local people of this place spend a lot of time on the river and by the river side. It is a no-fuss river town where one does not have to be pressurized by the regular tourist hassle but can enjoy here  riverside activities like boating & fishing and long river-walks.
+When in Dhuliyan, one can visit some places near by  which are not at Dhuliyan but at a distance of 20 K.M.  or a little above viz. Farakka Barrage over Ganges and Nimtita Zamindari Palace & Snake Garden. Coming to Dhuliyan, one Can enjoy ride on a Cart driven by a horse, which is available here throughout the day on the entrance road of the town.
+<br /><br />
+
+</p>
+                	<p>&nbsp;</p>
+                	<div class="image-galleries">
+                    	<img src="images/gal-img01.jpg" alt="" />
+                        <img src="images/gal-img02.jpg" alt="" />
+                        <img src="images/gal-img03.jpg" alt="" />
+                        <div class="clearBoth"></div>
+                    </div>
+                    
+                </div>
+				
+				
+                <div class="body-right">
+                	<!--<div class="testimonials">
+                    	<h2>Client’s <span class="red-txt">Feedback</span></h2>
+                        <em>" They have just a superb collection at a single place. I would recommend anyone to get their services for the kitchen rennovations."</em>
+                        <strong>-- Amit Dey</strong>
+                        <div class="more-btn"><a href="#">More Testimonials</a></div>
+                        <div class="clearBoth"></div>
+                    </div>-->
+                    
+                    <!--<a href="dealer.html"><img src="images/distr-btn.png" alt="" /></a>-->
+                    
+                    <h3>Quick <span class="blue-text2">Query</span></h3>
+                    <form action="#" method="post">
+                    <input name="" type="text" placeholder="FULL NAME">
+                    <input name="" type="text" placeholder="EMAIL ADDRESS">
+                    <textarea name="" cols="1" rows="1" placeholder="MESSAGE"></textarea>
+                    <input name="" type="submit" value="Send">
+                    </form>
+                </div>
+				
+				<!--ADVERTISEMENT-->
+				<div class="body-right">
+                	<div class="testimonials">
+                    	<h2><span class="red-txt">ADVERTISEMENT</span></h2>
+						                       
+                        <div class="clearBoth"></div>
+                    </div>
+                    
+                   
+                </div>
+				
+				<!--ADVERTISEMENT-->
+				
+                <div class="clearBoth"></div>
+            </div>
+            </div>
+          
+        </div>
+        <!--body-section ends-->
+        
+        <!--footer-starts-->
+        <div class="footer">
+        <div class="main">
+        	<div class="footer-left">Powered by <a href="http://www.webrobust.com/" target="_blank">Webrobust</a></div>
+            <div class="footer-middle">
+            	<a href="index.html"><img src="images/logo.png" alt="" /></a>
+                <p>Kitchen Sree Copyright 2014. Privacy Policy</p>
+            </div>
+            <div class="social">
+            	<a href="#">a</a>
+                <a href="#">b</a>
+                <a href="#">c</a>
+                <a href="#">,</a>
+            </div>
+            <div class="clearBoth"></div>
+        </div>
+        </div>
+        <!--footer-ends-->
+    
+</body>
+</html>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/wowslider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
